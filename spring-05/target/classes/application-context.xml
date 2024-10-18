@@ -1,0 +1,38 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+     <bean class="com.kn.bean.Mobile">
+	    <property name="brand" value="oneplus"/>
+	    <property name="ram" value="8GB"/>
+	    <property name="cost" value="98765"/>
+    </bean>
+                                             <!-- using constructor -->
+    <bean id="person" class="com.kn.bean.Person" autowire="constructor">	   
+    </bean>
+
+</beans>
+   
+   <!--   <bean id="mobile" class="com.kn.bean.Mobile">
+	    <property name="brand" value="oneplus"/>
+	    <property name="ram" value="8GB"/>
+	    <property name="cost" value="98765"/>
+    </bean>
+                                                  using byname
+    <bean id="person" class="com.kn.bean.Person" autowire="byName">
+	    <property name="name" value="Ram lal"/>
+	    <property name="age" value="22"/>
+	   
+    </bean>-->
+    <!-- <bean  class="com.kn.bean.Mobile">
+	    <property name="brand" value="oneplus"/>
+	    <property name="ram" value="8GB"/>
+	    <property name="cost" value="98765"/>
+    </bean>
+                                                  using byType
+      <bean id="person" class="com.kn.bean.Person" autowire="byType">
+	    <property name="name" value="Ram lal"/>
+	    <property name="age" value="22"/>
+	   
+      </bean> -->

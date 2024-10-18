@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;DSA_Day_7_LINKEDLIST&apos; to &apos;DSA_Day_7_SINGLYLINKEDLIST&apos;&#x0D;&#x0A;- Original project: &apos;DSA&apos;&#x0D;&#x0A;- Original element: &apos;DSA/src/DSA_Day_7_LINKEDLIST&apos;&#x0D;&#x0A;- Renamed element: &apos;DSA/src/DSA_Day_7_SINGLYLINKEDLIST&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;DSA_Day_7_LINKEDLIST&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;DSA_Day_7_LINKEDLIST" name="DSA_Day_7_SINGLYLINKEDLIST" qualified="false" references="true" stamp="1704774716937" textual="false" version="1.0"/>
+</session>

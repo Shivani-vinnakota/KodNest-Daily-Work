@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="laptop1" class="com.kn.bean.Laptop">
+	    <property name="serialNumber" value="130"/>
+	    <property name="manufacturer" value="hp"/>
+	    <property name="cost" value="456789.09"/>
+    </bean>
+    <bean id="laptop2" class="com.kn.bean.Laptop">
+         <constructor-arg name="serialNumber" value="131"/>
+         <constructor-arg name="manufacturer" value="DELL"/>
+         <constructor-arg name="cost" value="56700.87"/>   
+    </bean>
+</beans>
