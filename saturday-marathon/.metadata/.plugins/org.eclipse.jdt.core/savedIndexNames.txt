@@ -1,7 +1,0 @@
-INDEX VERSION 1.134+C:\Users\SHRI\eclipse-workspace\saturday-marathon\.metadata\.plugins\org.eclipse.jdt.core
-2420995280.index
-3959137331.index
-3713621434.index
-1865797976.index
-2800491316.index
-1145110887.index
